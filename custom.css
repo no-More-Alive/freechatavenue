@@ -60,6 +60,7 @@ html.mAps-new-theme div[data-name="mojs-shape"] { display: none; }
 .mAps-hide-subscribe-unsubscribe .mAps-subscribe-unsubscribe { display: none!important; }
 .mAps-hide-one-to-one .mAps-one-to-one { display: none!important; }
 .mAps-hide-mute a[onclick*="muteUser"] { display: none!important; }
+.mAps-hide-clone .mAps-clone { display: none!important; }
 #chatbox { padding-top: 0; }
 .mAps-tag-message, .mAps-tagged-message { text-decoration: underline; font-weight: bolder; }
 // .input-group-text { border: transparent !important; }

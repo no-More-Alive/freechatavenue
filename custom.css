@@ -166,3 +166,8 @@ margin-top: 5px;
 	text-align: center;
 }
 .msg { margin: 0; }
+.mAps-hide-avatar .mAps-avatar { display: none !important; }
+.mAps-hide-join-timeago .mAps-timeago { display: none !important; }
+.mAps-hide-message-timeago .timeago { display: none !important; }
+.mAps-hide-join-timestamp .mAps-join-timestamp { display: none !important; }
+.mAps-hide-message-timestamp .mAps-message-timestamp { display: none !important; }

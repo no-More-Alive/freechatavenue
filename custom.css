@@ -2,7 +2,7 @@
 #joiners { border-radius: 100px; border: 2px dashed black !important; z-index: 1051 !important; }
 #messages li.local-user a span.name, .modal-title, label:not(label[for]) { text-decoration: underline wavy; }
 #messages li:nth-child(2n+1) { border-radius: 10px; }
-.nav-fill .nav-item, .nav-fill>.nav-link, #messages li {
+.mAps-border-v-1 .nav-fill .nav-item, .mAps-border-v-1 .nav-fill>.nav-link, .mAps-border-v-1 #messages li {
 border: 1px solid transparent!important;
 border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)!important;
 border-image-slice: 1!important;
@@ -154,16 +154,16 @@ background-color: rgb(32, 134, 55) !important;
 display: block;
 margin: 0 auto;
 margin-top: 5px;
-	height: 1.6em;
-	width: 100%;	
-	overflow:hidden;
-	background: #333;
-	color: #eee;
-	font-weight: 700;
-	border-radius: 3px;
-	border: none;
-	resize: none;
-	text-align: center;
+height: 1.6em;
+width: 100%;	
+overflow:hidden;
+background: #333;
+color: #eee;
+font-weight: 700;
+border-radius: 3px;
+border: none;
+resize: none;
+text-align: center;
 }
 .msg { margin: 0; }
 .mAps-hide-avatar .mAps-avatar { display: none !important; }
@@ -175,7 +175,7 @@ margin-top: 5px;
 .mAps-hide-joining-banner .joiners { display: none!important; }
 .mAps-hide-joining-message .mAps-joining-message { display: none!important; }
 .mAps-hide-auto-mute .mAps-auto-mute { display: none!important; }
-.mAps-new-theme-v-2 .nav-fill .nav-item, .mAps-new-theme-v-2 .nav-fill>.nav-link, .mAps-new-theme-v-2 #messages li {
+.mAps-border-v-2 .nav-fill .nav-item, .mAps-border-v-2 .nav-fill>.nav-link, .mAps-border-v-2 #messages li {
 // font-family: 'Lato';
 // color: #ffffff;
 // padding: 30px;
@@ -183,14 +183,14 @@ margin-top: 5px;
 // text-align: center;
 border-radius: 0.25rem; // 4px;
 }
-.mAps-new-theme-v-2 #messages li {
+.mAps-border-v-2 #messages li {
 padding-top: 10px!important;
 }
 /* The animation starts here */
-.mAps-new-theme-v-2 .nav-fill .nav-item, .mAps-new-theme-v-2 .nav-fill>.nav-link, .mAps-new-theme-v-2 #messages li {
+.mAps-border-v-2 .nav-fill .nav-item, .mAps-border-v-2 .nav-fill>.nav-link, .mAps-border-v-2 #messages li {
 position: relative;
 }
-.mAps-new-theme-v-2 .nav-fill .nav-item:after, .mAps-new-theme-v-2 .nav-fill>.nav-link:after, .mAps-new-theme-v-2 #messages li:after {
+.mAps-border-v-2 .nav-fill .nav-item:after, .mAps-border-v-2 .nav-fill>.nav-link:after, .mAps-border-v-2 #messages li:after {
 content: '';
 position: absolute;
 top: 0;
@@ -202,7 +202,7 @@ background: linear-gradient(120deg, #00F260, #0575E6, #00F260);
 background-size: 300% 300%;
 clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
 }
-.mAps-new-theme-v-2.in .nav-fill .nav-item:after, .mAps-new-theme-v-2 .nav-fill>.nav-link:after, .mAps-new-theme-v-2 #messages li:after {
+.mAps-border-v-2.in .nav-fill .nav-item:after, .mAps-border-v-2 .nav-fill>.nav-link:after, .mAps-border-v-2 #messages li:after {
 animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
 }
 /* motion */

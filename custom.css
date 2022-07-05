@@ -136,7 +136,8 @@ color: #25D366;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 color: rgb(232, 230, 227);
-background-color: rgb(32, 134, 55) !important;
+// background-color: rgb(32, 134, 55) !important;
+background-color: rgba(32, 134, 55, 0.1) !important;
 border-radius: 0!important;
 }
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -234,10 +235,10 @@ clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% -
 -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 0% 100%);
 }
 }
-nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+// .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 // background-color: transparent !important;
-background-color: rgba(32, 134, 55, 0.1) !important;
-}
+// background-color: rgba(32, 134, 55, 0.1) !important;
+// }
 .shimmer {
 background: #f6f7f8;
 background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);

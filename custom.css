@@ -202,7 +202,7 @@ background: linear-gradient(120deg, #00F260, #0575E6, #00F260);
 background-size: 300% 300%;
 clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
 }
-.mAps-border-v-2.in .nav-fill .nav-item:after, .mAps-border-v-2 .nav-fill>.nav-link:after, .mAps-border-v-2 #messages li:after {
+.mAps-border-v-2.in .nav-fill .nav-item:after, .mAps-border-v-2.in .nav-fill>.nav-link:after, .mAps-border-v-2.in #messages li:after {
 animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
 }
 /* motion */

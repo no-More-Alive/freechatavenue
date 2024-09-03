@@ -57,6 +57,8 @@ html.mAps-new-theme div[data-name="mojs-shape"] { display: none; }
 #message-box { padding: 5px; border-top: 0; }
 #messages li { margin-bottom: 0.25rem !important; }
 .mAps-hide-cipher-text .mAps-cipher-text { display: none!important; }
+.mAps-hide-cutted-text .mAps-cutted-text { display: none!important; }
+.mAps-hide-censored-text .mAps-censor-text { display: none!important; }
 .mAps-hide-subscribe-unsubscribe .mAps-subscribe-unsubscribe { display: none!important; }
 .mAps-hide-one-to-one .mAps-one-to-one { display: none!important; }
 .mAps-hide-mute a[onclick*="muteUser"] { display: none!important; }
